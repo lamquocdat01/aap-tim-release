@@ -1,0 +1,194 @@
+{
+ "checker": "FallChecker",
+ "seed": 20260911,
+ "replicates": 20000,
+ "substituted_corpus_n": 11,
+ "points": {
+  "t0.3": {
+   "theta": 0.3,
+   "pass": "v1_loose",
+   "hours": 3.991430555555556,
+   "alerts": 51,
+   "rate_per_h": 12.777373748621176,
+   "segments": 8,
+   "segments_carrying_alerts": 3,
+   "per_segment": {
+    "HOM_20260827_1300": {
+     "hours": 0.5001166666666667,
+     "alerts": 2,
+     "substituted_clock": false
+    },
+    "HOM_20260827_1700": {
+     "hours": 0.4998694444444444,
+     "alerts": 22,
+     "substituted_clock": false
+    },
+    "HOM_20260831_0230": {
+     "hours": 0.5000194444444445,
+     "alerts": 0,
+     "substituted_clock": false
+    },
+    "HOM_20260831_0600": {
+     "hours": 0.49991944444444447,
+     "alerts": 0,
+     "substituted_clock": false
+    },
+    "HOM_20260831_0800": {
+     "hours": 0.4918888888888889,
+     "alerts": 27,
+     "substituted_clock": true
+    },
+    "HOM_20260831_1500": {
+     "hours": 0.499525,
+     "alerts": 0,
+     "substituted_clock": false
+    },
+    "HOM_20260831_2100": {
+     "hours": 0.4999166666666667,
+     "alerts": 0,
+     "substituted_clock": false
+    },
+    "HOM_20260901_1300": {
+     "hours": 0.500175,
+     "alerts": 0,
+     "substituted_clock": false
+    }
+   },
+   "substituted_alerts": 27,
+   "substituted_hours": 0.4918888888888889,
+   "poisson_ci95": [
+    9.512885309138968,
+    16.800233484547746
+   ],
+   "block_bootstrap_ci95": [
+    0.4999548651857818,
+    28.81212614700448
+   ],
+   "bootstrap_fraction_exactly_zero": 0.0232
+  },
+  "t0.45": {
+   "theta": 0.45,
+   "pass": "v2_frozen",
+   "hours": 3.991430555555556,
+   "alerts": 16,
+   "rate_per_h": 4.008587842704682,
+   "segments": 8,
+   "segments_carrying_alerts": 1,
+   "per_segment": {
+    "HOM_20260827_1300": {
+     "hours": 0.5001166666666667,
+     "alerts": 0,
+     "substituted_clock": false
+    },
+    "HOM_20260827_1700": {
+     "hours": 0.4998694444444444,
+     "alerts": 0,
+     "substituted_clock": false
+    },
+    "HOM_20260831_0230": {
+     "hours": 0.5000194444444445,
+     "alerts": 0,
+     "substituted_clock": false
+    },
+    "HOM_20260831_0600": {
+     "hours": 0.49991944444444447,
+     "alerts": 0,
+     "substituted_clock": false
+    },
+    "HOM_20260831_0800": {
+     "hours": 0.4918888888888889,
+     "alerts": 16,
+     "substituted_clock": true
+    },
+    "HOM_20260831_1500": {
+     "hours": 0.499525,
+     "alerts": 0,
+     "substituted_clock": false
+    },
+    "HOM_20260831_2100": {
+     "hours": 0.4999166666666667,
+     "alerts": 0,
+     "substituted_clock": false
+    },
+    "HOM_20260901_1300": {
+     "hours": 0.500175,
+     "alerts": 0,
+     "substituted_clock": false
+    }
+   },
+   "substituted_alerts": 16,
+   "substituted_hours": 0.4918888888888889,
+   "poisson_ci95": [
+    2.2897827701068763,
+    6.510056442429955
+   ],
+   "block_bootstrap_ci95": [
+    0.0,
+    12.07538731385525
+   ],
+   "bootstrap_fraction_exactly_zero": 0.33885
+  },
+  "t0.6": {
+   "theta": 0.6,
+   "pass": "v3_tight",
+   "hours": 3.991430555555556,
+   "alerts": 0,
+   "rate_per_h": 0.0,
+   "segments": 8,
+   "segments_carrying_alerts": 0,
+   "per_segment": {
+    "HOM_20260827_1300": {
+     "hours": 0.5001166666666667,
+     "alerts": 0,
+     "substituted_clock": false
+    },
+    "HOM_20260827_1700": {
+     "hours": 0.4998694444444444,
+     "alerts": 0,
+     "substituted_clock": false
+    },
+    "HOM_20260831_0230": {
+     "hours": 0.5000194444444445,
+     "alerts": 0,
+     "substituted_clock": false
+    },
+    "HOM_20260831_0600": {
+     "hours": 0.49991944444444447,
+     "alerts": 0,
+     "substituted_clock": false
+    },
+    "HOM_20260831_0800": {
+     "hours": 0.4918888888888889,
+     "alerts": 0,
+     "substituted_clock": true
+    },
+    "HOM_20260831_1500": {
+     "hours": 0.499525,
+     "alerts": 0,
+     "substituted_clock": false
+    },
+    "HOM_20260831_2100": {
+     "hours": 0.4999166666666667,
+     "alerts": 0,
+     "substituted_clock": false
+    },
+    "HOM_20260901_1300": {
+     "hours": 0.500175,
+     "alerts": 0,
+     "substituted_clock": false
+    }
+   },
+   "substituted_alerts": 0,
+   "substituted_hours": 0.4918888888888889,
+   "poisson_ci95": [
+    0.0,
+    0.9189717282758634
+   ],
+   "block_bootstrap_ci95": [
+    0.0,
+    0.0
+   ],
+   "bootstrap_fraction_exactly_zero": 1.0
+  }
+ }
+}

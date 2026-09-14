@@ -1,0 +1,2 @@
+run_id,video_id,checker,t_alert,confidence,frame_idx,track_id,event_type
+M1_HOM_20260828_0500,HOM_20260828_0500.mp4,IntrusionChecker,1064.16,0.8857,15966,std_35,INTRUSION

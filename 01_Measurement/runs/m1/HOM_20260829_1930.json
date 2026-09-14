@@ -1,0 +1,73 @@
+{
+  "run_id": "M1_HOM_20260829_1930",
+  "video_id": "HOM_20260829_1930.mp4",
+  "frames_read": 26789,
+  "frames_in_file": 26789,
+  "fps": 14.886363147142536,
+  "fps_source": "container",
+  "fps_container": 14.886363147142536,
+  "video_seconds": 1799.57,
+  "wall_seconds": 2668.0,
+  "realtime_factor": 0.67,
+  "alerts": 28,
+  "virtual_clock": true,
+  "dedup": "time",
+  "config": {
+    "confirm_frames": 3,
+    "cooldown_enabled": true,
+    "cooldown_seconds": 60.0,
+    "conf_threshold": 0.25,
+    "skip_frame": 2,
+    "clahe_enabled": true,
+    "disable_motion_filter": false,
+    "adaptive_gate_enabled": false
+  },
+  "modules": "intrusion,helmet,fall,smoke_fire,running",
+  "helmet_mode": "standard",
+  "device": "0",
+  "cooldown_mode": "per_checker",
+  "per_checker_cooldown_s": {
+    "IntrusionChecker": 30.0,
+    "RunningChecker": 20.0,
+    "FallChecker": 30.0,
+    "HelmetChecker": 30.0,
+    "EnhancedHelmetChecker": 30.0,
+    "SmokeFireChecker": 60.0,
+    "ForkliftSpeedChecker": 20.0
+  },
+  "protocol_version": "1.3",
+  "checker_params": null,
+  "candidates_file": null,
+  "candidates_recorded": null,
+  "diagnostics": {
+    "frames": 26789,
+    "ai_frames": 560,
+    "detections": 4061,
+    "raw_violations": 704,
+    "confirm_blocked": 69,
+    "dedup_blocked": 607,
+    "dispatched": 28,
+    "by_class": {
+      "tv": 560,
+      "person": 614,
+      "chair": 1446,
+      "laptop": 5,
+      "motorcycle": 437,
+      "bicycle": 266,
+      "potted plant": 515,
+      "no_mask": 186,
+      "mask": 23,
+      "no_glove": 3,
+      "no_goggles": 1,
+      "no_helmet": 3,
+      "helmet": 2
+    },
+    "raw_by_checker": {
+      "INTRUSION": 614,
+      "NO_HELMET": 90
+    },
+    "side_raw": {},
+    "side_calls_with_boxes": 26787,
+    "side_calls_no_boxes": 2
+  }
+}

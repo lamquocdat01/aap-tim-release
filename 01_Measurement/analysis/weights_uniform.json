@@ -1,0 +1,10 @@
+{
+  "_comment": "Severity weights, SENSITIVITY vector. Every detector equal: the allocation that assumes nothing about relative severity. Any conclusion that holds under both this and weights_graded.json does not rest on the grading.",
+  "FallChecker": 1.0,
+  "SmokeFireChecker": 1.0,
+  "IntrusionChecker": 1.0,
+  "ForkliftSpeedChecker": 1.0,
+  "HelmetChecker": 1.0,
+  "EnhancedHelmetChecker": 1.0,
+  "RunningChecker": 1.0
+}

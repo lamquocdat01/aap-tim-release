@@ -1,0 +1,195 @@
+{
+  "label": "only_IntrusionChecker",
+  "adapter_kind": "run_pass_container_per_cell",
+  "run_id": "M4E_only_IntrusionChecker",
+  "config": "<device-root>/scripts/configs/abl_only_IntrusionChecker.json",
+  "config_sha256": "0f24197757eddb07bf6eea7336f1a9c72ebb9d56a7ed235a6cd5821de0447f2d",
+  "image_digest": "sha256:2f41e5038c4377f7a5e340ff2161835e8a29935fd9291d38c3868f580d86c9c6",
+  "modules": "intrusion",
+  "helmet_mode": "standard",
+  "checker_params": null,
+  "extra_flags": null,
+  "checkers_enabled": [
+    "IntrusionChecker"
+  ],
+  "sample_list": "<device-root>/ops/lists/m4_sample.list",
+  "sample_sha256": "a3cf149c9620021eb16e78898fc693ec0c282f1741f3f9971a306dc82d9eb979",
+  "segments_measured": 5,
+  "observation_hours": 2.500015,
+  "alerts_total": 113,
+  "alerts_by_checker": {
+    "IntrusionChecker": 113
+  },
+  "wall_seconds": 5645.7,
+  "segments": [
+    {
+      "segment": "HOM_20260827_2030",
+      "frames_read": 26671,
+      "fps_effective": 14.819189039604423,
+      "fps_source": "container",
+      "observation_hours": 0.499934,
+      "wall_seconds": 1182.5,
+      "alerts": 110,
+      "diagnostics": {
+        "frames": 26671,
+        "ai_frames": 2656,
+        "detections": 17401,
+        "raw_violations": 3001,
+        "confirm_blocked": 242,
+        "dedup_blocked": 2649,
+        "dispatched": 110,
+        "by_class": {
+          "tv": 2658,
+          "chair": 6739,
+          "person": 3001,
+          "motorcycle": 1972,
+          "potted plant": 2826,
+          "book": 14,
+          "bicycle": 184,
+          "backpack": 2,
+          "couch": 5
+        },
+        "raw_by_checker": {
+          "INTRUSION": 3001
+        },
+        "side_raw": {},
+        "side_calls_with_boxes": 0,
+        "side_calls_no_boxes": 0
+      }
+    },
+    {
+      "segment": "HOM_20260828_0000",
+      "frames_read": 27015,
+      "fps_effective": 14.99839299214453,
+      "fps_source": "container",
+      "observation_hours": 0.500331,
+      "wall_seconds": 1108.5,
+      "alerts": 3,
+      "diagnostics": {
+        "frames": 27015,
+        "ai_frames": 202,
+        "detections": 2045,
+        "raw_violations": 46,
+        "confirm_blocked": 11,
+        "dedup_blocked": 32,
+        "dispatched": 3,
+        "by_class": {
+          "tv": 324,
+          "chair": 1232,
+          "clock": 120,
+          "vase": 232,
+          "potted plant": 56,
+          "couch": 17,
+          "person": 46,
+          "bicycle": 4,
+          "dining table": 3,
+          "motorcycle": 9,
+          "book": 2
+        },
+        "raw_by_checker": {
+          "INTRUSION": 46
+        },
+        "side_raw": {},
+        "side_calls_with_boxes": 0,
+        "side_calls_no_boxes": 0
+      }
+    },
+    {
+      "segment": "HOM_20260828_0230",
+      "frames_read": 27000,
+      "fps_effective": 15.002499331304977,
+      "fps_source": "container",
+      "observation_hours": 0.499917,
+      "wall_seconds": 1103.0,
+      "alerts": 0,
+      "diagnostics": {
+        "frames": 27000,
+        "ai_frames": 61,
+        "detections": 799,
+        "raw_violations": 0,
+        "confirm_blocked": 0,
+        "dedup_blocked": 0,
+        "dispatched": 0,
+        "by_class": {
+          "tv": 122,
+          "chair": 491,
+          "vase": 100,
+          "clock": 57,
+          "potted plant": 29
+        },
+        "raw_by_checker": {},
+        "side_raw": {},
+        "side_calls_with_boxes": 0,
+        "side_calls_no_boxes": 0
+      }
+    },
+    {
+      "segment": "HOM_20260831_1930",
+      "frames_read": 27000,
+      "fps_effective": 15.002505843894209,
+      "fps_source": "container",
+      "observation_hours": 0.499916,
+      "wall_seconds": 1105.0,
+      "alerts": 0,
+      "diagnostics": {
+        "frames": 27000,
+        "ai_frames": 83,
+        "detections": 889,
+        "raw_violations": 0,
+        "confirm_blocked": 0,
+        "dedup_blocked": 0,
+        "dispatched": 0,
+        "by_class": {
+          "tv": 163,
+          "chair": 409,
+          "potted plant": 101,
+          "vase": 82,
+          "clock": 113,
+          "motorcycle": 21
+        },
+        "raw_by_checker": {},
+        "side_raw": {},
+        "side_calls_with_boxes": 0,
+        "side_calls_no_boxes": 0
+      }
+    },
+    {
+      "segment": "HOM_20260901_0130",
+      "frames_read": 27000,
+      "fps_effective": 15.002494446866763,
+      "fps_source": "container",
+      "observation_hours": 0.499917,
+      "wall_seconds": 1103.7,
+      "alerts": 0,
+      "diagnostics": {
+        "frames": 27000,
+        "ai_frames": 63,
+        "detections": 665,
+        "raw_violations": 0,
+        "confirm_blocked": 0,
+        "dedup_blocked": 0,
+        "dispatched": 0,
+        "by_class": {
+          "tv": 125,
+          "chair": 298,
+          "clock": 86,
+          "potted plant": 74,
+          "vase": 61,
+          "motorcycle": 21
+        },
+        "raw_by_checker": {},
+        "side_raw": {},
+        "side_calls_with_boxes": 0,
+        "side_calls_no_boxes": 0
+      }
+    }
+  ],
+  "provenance": {
+    "utc": "2026-09-10T21:43:50Z",
+    "host": "<host>",
+    "python": "3.10.12",
+    "docker_version": "Docker version 29.5.2, build 79eb04c",
+    "jetpack": "# R36 (release), REVISION: 5.0, GCID: 43688277, BOARD: generic, EABI: aarch64, DATE: Fri Jan 16 03:50:45 UTC 2026\n# KERNEL_VARIANT: oot\nTARGET_USERSPACE_LIB_DIR=nvidia\nTARGET_USERSPACE_LIB_DIR_PATH=usr/lib/aarch64-linux-gnu/nvidia"
+  },
+  "note": "Measured by ops/run_pass.sh, one fresh container per cell -- the same driver as C1, V1-V5 and every ex-situ theta, which is what makes this cell comparable with the tables that driver produced. Per-segment CSV and metadata are in segments/ one level down, deliberately outside the out/ablation/*/*.json glob that counts cells."
+}

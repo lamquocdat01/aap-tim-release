@@ -1,0 +1,23 @@
+{
+  "corpus": "FURG",
+  "fixed_at": "2026-09-02T13:26:02.870347+07:00",
+  "video_root": "D:\\AAP_exsitu_data\\furg",
+  "clips": 23,
+  "licence": "CC0-1.0 (GitHub API license.spdx_id, steffensbola/furg-fire-dataset)",
+  "gt_class": "fire only; corpus contains NO smoke annotation",
+  "merge_gap_s": 60.0,
+  "by_stratum": {
+    "moving": {
+      "clips": 14,
+      "events": 9,
+      "seconds": 281.103
+    },
+    "static": {
+      "clips": 9,
+      "events": 8,
+      "seconds": 241.41199999999998
+    }
+  },
+  "problems": [],
+  "cliplist_sha256": "3c16a0d792b9e49bcabeb07dbe441c7c104b4b653c8b5033e8d3fb45a3f9efe5"
+}

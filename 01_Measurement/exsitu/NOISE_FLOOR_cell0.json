@@ -1,0 +1,43 @@
+{
+  "clips_compared": 160,
+  "clips_missing": 0,
+  "clips_divergent": 0,
+  "alerts_a": 306,
+  "alerts_b": 306,
+  "alerts_only_a": 0,
+  "alerts_only_b": 0,
+  "alerts_shared": 306,
+  "divergent_alerts": 0,
+  "total_alerts_both_runs": 612,
+  "noise_floor": 0.0,
+  "confidence_mismatched_on_matching_alerts": 0,
+  "confidence_max_abs_diff": 0.0,
+  "per_checker": {
+    "IntrusionChecker": {
+      "only_a": 0,
+      "only_b": 0,
+      "shared": 197
+    },
+    "FallChecker": {
+      "only_a": 0,
+      "only_b": 0,
+      "shared": 27
+    },
+    "HelmetChecker": {
+      "only_a": 0,
+      "only_b": 0,
+      "shared": 82
+    }
+  },
+  "divergent_examples": [],
+  "label": "cell0_noise_floor",
+  "dir_a": "D:/AAP_exsitu_data/preds_native",
+  "dir_b": "D:/AAP_exsitu_data/preds_native_rep2",
+  "predicate": [
+    "checker",
+    "event_type",
+    "t_alert",
+    "frame_idx",
+    "track_id"
+  ]
+}

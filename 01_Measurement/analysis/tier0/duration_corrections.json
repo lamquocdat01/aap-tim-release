@@ -1,0 +1,96 @@
+{
+  "fps_ref": 14.883068596755784,
+  "healthy_n": 164,
+  "fixed": [
+    {
+      "file": "HOM_20260831_0800.mp4",
+      "decoded_frames": 26355,
+      "fps_ref": 14.883069,
+      "old_duration_s": 19614.0,
+      "new_duration_s": 1770.804,
+      "delta_s": -17843.196
+    },
+    {
+      "file": "HOM_20260831_0830.mp4",
+      "decoded_frames": 26262,
+      "fps_ref": 14.883069,
+      "old_duration_s": 1.0,
+      "new_duration_s": 1764.555,
+      "delta_s": 1763.555
+    },
+    {
+      "file": "HOM_20260831_0900.mp4",
+      "decoded_frames": 26421,
+      "fps_ref": 14.883069,
+      "old_duration_s": 1.0,
+      "new_duration_s": 1775.239,
+      "delta_s": 1774.239
+    },
+    {
+      "file": "HOM_20260831_0930.mp4",
+      "decoded_frames": 26639,
+      "fps_ref": 14.883069,
+      "old_duration_s": 1.0,
+      "new_duration_s": 1789.886,
+      "delta_s": 1788.886
+    },
+    {
+      "file": "HOM_20260831_1000.mp4",
+      "decoded_frames": 26640,
+      "fps_ref": 14.883069,
+      "old_duration_s": 1.0,
+      "new_duration_s": 1789.953,
+      "delta_s": 1788.953
+    },
+    {
+      "file": "HOM_20260831_1030.mp4",
+      "decoded_frames": 26727,
+      "fps_ref": 14.883069,
+      "old_duration_s": 1.0,
+      "new_duration_s": 1795.799,
+      "delta_s": 1794.799
+    },
+    {
+      "file": "HOM_20260831_1100.mp4",
+      "decoded_frames": 26760,
+      "fps_ref": 14.883069,
+      "old_duration_s": 1.0,
+      "new_duration_s": 1798.016,
+      "delta_s": 1797.016
+    },
+    {
+      "file": "HOM_20260831_1130.mp4",
+      "decoded_frames": 26850,
+      "fps_ref": 14.883069,
+      "old_duration_s": 1.0,
+      "new_duration_s": 1804.063,
+      "delta_s": 1803.063
+    },
+    {
+      "file": "HOM_20260831_1200.mp4",
+      "decoded_frames": 26760,
+      "fps_ref": 14.883069,
+      "old_duration_s": 1.0,
+      "new_duration_s": 1798.016,
+      "delta_s": 1797.016
+    },
+    {
+      "file": "HOM_20260831_1230.mp4",
+      "decoded_frames": 26730,
+      "fps_ref": 14.883069,
+      "old_duration_s": 1.0,
+      "new_duration_s": 1796.001,
+      "delta_s": 1795.001
+    },
+    {
+      "file": "HOM_20260831_1300.mp4",
+      "decoded_frames": 26640,
+      "fps_ref": 14.883069,
+      "old_duration_s": 169.0,
+      "new_duration_s": 1789.953,
+      "delta_s": 1620.953
+    }
+  ],
+  "total_old_h": 83.9775,
+  "total_new_h": 83.94424583333333
+}

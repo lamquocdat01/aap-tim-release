@@ -1,0 +1,36 @@
+{
+  "seed": 20260902,
+  "n_target": 24,
+  "n_drawn": 24,
+  "hours": 11.22,
+  "rule": "min 2 per non-empty cell, remainder proportional to cell hours, largest remainder first; random.Random(seed).sample over segments sorted by name",
+  "strata": "view x daynight x occupancy(ai_frames==0)",
+  "cells": {
+    "A|day|motion": {
+      "available": 17,
+      "quota": 3
+    },
+    "A|day|nomotion": {
+      "available": 1,
+      "quota": 1
+    },
+    "A|night|motion": {
+      "available": 4,
+      "quota": 2
+    },
+    "B|day|motion": {
+      "available": 21,
+      "quota": 4
+    },
+    "B|day|nomotion": {
+      "available": 40,
+      "quota": 5
+    },
+    "B|night|motion": {
+      "available": 92,
+      "quota": 9
+    }
+  },
+  "drawn": "2026-09-07T10:25:34+07:00",
+  "provenance": "Drawn by scripts/draw_sweep_samples.py from seeds registered before any of this existed (20260902 sweep, 20260903 verification). The only inputs are the manifest and the three registered stratification variables -- view, day/night, and ai_frames == 0. The false-alarm rate is NOT an input, is not read by this script, and no segment is chosen or rejected by hand. The draw is reproducible from the manifest and the run metadata alone, which is the property that makes the timing irrelevant."
+}

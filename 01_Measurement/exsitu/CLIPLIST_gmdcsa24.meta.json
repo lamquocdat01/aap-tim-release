@@ -1,0 +1,12 @@
+{
+  "corpus": "gmdcsa24",
+  "fixed_at": "2026-09-02T13:06:59.696581+07:00",
+  "video_root": "D:\\AAP_exsitu_data\\gmdcsa24\\extracted\\ekramalam-GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos-d3edb5d",
+  "clips": 160,
+  "clips_with_fall_segment": 78,
+  "total_segments": 458,
+  "annotation_source": "OmniFall simplexsigil2/omnifall labels/GMDCSA24.csv (unmodified)",
+  "annotation_licence": "CC BY-NC-SA 4.0 (annotations); video CC BY 4.0 (Zenodo 12921216)",
+  "missing_from_disk": [],
+  "cliplist_sha256": "12f4c34fd78f10704bcbb3dded0d8fe09ac712836daab051f22f3ef9502699ab"
+}

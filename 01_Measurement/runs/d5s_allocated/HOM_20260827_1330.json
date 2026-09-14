@@ -1,0 +1,81 @@
+{
+  "run_id": "D5S_HOM_20260827_1330",
+  "video_id": "HOM_20260827_1330.mp4",
+  "frames_read": 26790,
+  "frames_in_file": 26790,
+  "fps": 14.891211434811089,
+  "fps_source": "container",
+  "fps_container": 14.891211434811089,
+  "fps_effective": 14.891211434811089,
+  "fps_container_raw": 14.891211434811089,
+  "fps_override_applied": false,
+  "video_seconds": 1799.05,
+  "wall_seconds": 2525.0,
+  "realtime_factor": 0.71,
+  "alerts": 141,
+  "virtual_clock": true,
+  "dedup": "time",
+  "config": {
+    "confirm_frames": 3,
+    "cooldown_enabled": true,
+    "cooldown_seconds": 60.0,
+    "conf_threshold": 0.25,
+    "skip_frame": 2,
+    "clahe_enabled": true,
+    "disable_motion_filter": false,
+    "adaptive_gate_enabled": false
+  },
+  "modules": "intrusion,helmet,fall,smoke_fire,running",
+  "helmet_mode": "standard",
+  "device": "0",
+  "cooldown_mode": "per_checker",
+  "per_checker_cooldown_s": {
+    "IntrusionChecker": 30.0,
+    "RunningChecker": 20.0,
+    "FallChecker": 30.0,
+    "HelmetChecker": 30.0,
+    "EnhancedHelmetChecker": 30.0,
+    "SmokeFireChecker": 60.0,
+    "ForkliftSpeedChecker": 20.0
+  },
+  "protocol_version": "1.2",
+  "checker_params": {
+    "FallDecision": 0.525
+  },
+  "candidates_file": null,
+  "candidates_recorded": null,
+  "diagnostics": {
+    "frames": 26790,
+    "ai_frames": 5039,
+    "detections": 24017,
+    "raw_violations": 5014,
+    "confirm_blocked": 201,
+    "dedup_blocked": 4672,
+    "dispatched": 141,
+    "by_class": {
+      "tv": 5043,
+      "potted plant": 5042,
+      "motorcycle": 1431,
+      "chair": 6225,
+      "person": 5006,
+      "helmet": 1015,
+      "no_mask": 45,
+      "no_helmet": 24,
+      "no_glove": 8,
+      "no_goggles": 21,
+      "mask": 21,
+      "sports ball": 4,
+      "bicycle": 76,
+      "goggles": 5,
+      "backpack": 24,
+      "book": 27
+    },
+    "raw_by_checker": {
+      "INTRUSION": 5006,
+      "NO_HELMET": 8
+    },
+    "side_raw": {},
+    "side_calls_with_boxes": 26782,
+    "side_calls_no_boxes": 8
+  }
+}

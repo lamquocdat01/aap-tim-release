@@ -1,0 +1,10 @@
+{
+  "_comment": "Severity weights, PRIMARY vector. Declared by the site operator at Checkpoint AB-0 (2026-08-27), not derived from incident statistics. Bands: life-threatening 1.0 > injury risk 0.6 > compliance 0.4 > behavioral 0.2. Reported in Table tab:weights.",
+  "FallChecker": 1.0,
+  "SmokeFireChecker": 1.0,
+  "IntrusionChecker": 0.6,
+  "ForkliftSpeedChecker": 0.6,
+  "HelmetChecker": 0.4,
+  "EnhancedHelmetChecker": 0.4,
+  "RunningChecker": 0.2
+}

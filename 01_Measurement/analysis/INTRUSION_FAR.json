@@ -1,0 +1,35 @@
+{
+  "sealed_sha256": "dea87abb233f3362da467836e6f3fe651cd38a9ddf5c207b0594217fb5ecbb1b",
+  "provenance": "author, pass 1, direct human labelling; no machine-assisted proposal step",
+  "n": 100,
+  "yes": 100,
+  "no": 0,
+  "unsure": 0,
+  "denominator": 100,
+  "fp_fraction": 0.0,
+  "fp_fraction_wilson95": [
+    0.0,
+    0.036993
+  ],
+  "fp_fraction_rule_of_three_upper": 0.03,
+  "deployed_alerts_counted": 11257,
+  "corpus_hours": 83.9626,
+  "deployed_rate_per_h": 134.0716,
+  "deployed_rate_ci95_block_bootstrap": [
+    101.5424,
+    168.8271
+  ],
+  "deployed_rate_reconstructed_alerts": 11255,
+  "reconstruction_gap_alerts": 2,
+  "far_point_per_h": 0.0,
+  "far_upper_per_h": 6.2455,
+  "far_upper_rule_of_three_per_h": 5.0648,
+  "far_joint_bootstrap_ci95_DEGENERATE": [
+    0.0,
+    0.0
+  ],
+  "bootstrap_replicates": 20000,
+  "bootstrap_seed": 20260910,
+  "window_transfer_assumption": "the pack was drawn from production alerts of 2026-09-02 after 04:50:36Z; the rate it multiplies is the corpus-wide deployed rate over 175 segments and 83.9626 h. Applying the fraction across that wider window is a declared assumption about the production stream, not a measurement.",
+  "computed_at": "2026-09-10T16:22:56+07:00"
+}

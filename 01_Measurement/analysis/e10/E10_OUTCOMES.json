@@ -1,0 +1,19 @@
+{
+ "runctl_virat_t001": {
+  "alert_path_alive": true,
+  "branch": "2",
+  "checker_alerts": 0,
+  "checker_raw": 0,
+  "clips": 14,
+  "frames": 44801,
+  "no_boxes": 1858,
+  "other_checker_dispatched": 273,
+  "other_checker_raw": {
+   "INTRUSION": 11318
+  },
+  "param": {
+   "RunningChecker": 0.01
+  },
+  "with_boxes": 42943
+ }
+}

@@ -1,0 +1,9 @@
+seg,duration_s,view,daynight,occupancy,cell,ai_frames
+HOM_20260827_1300,1800.000,A,day,motion,A|day|motion,2136
+HOM_20260827_1700,1799.000,A,day,motion,A|day|motion,5386
+HOM_20260831_0230,1800.000,B,night,motion,B|night|motion,87
+HOM_20260831_0600,1799.000,B,day,motion,B|day|motion,4
+HOM_20260831_0800,1771.000,B,day,motion,B|day|motion,3404
+HOM_20260831_1500,1798.000,B,day,nomotion,B|day|nomotion,0
+HOM_20260831_2100,1799.000,B,night,motion,B|night|motion,79
+HOM_20260901_1300,1800.000,B,day,nomotion,B|day|nomotion,0

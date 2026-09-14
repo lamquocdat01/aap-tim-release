@@ -1,0 +1,3 @@
+{"list": "<device-root>/ops/lists/d5_32seg.list", "videos": "<device-root>/footage/home", "modules": "intrusion,helmet,fall,smoke_fire,running", "ext": "mp4",
+ "conf": 0.25, "checker_params": {"FallDecision": 0.525}, "record_candidates": 0,
+ "extra": "", "image": "ghcr.io/lamquocdat01/aap-ai-engine@sha256:2f41e5038c4377f7a5e340ff2161835e8a29935fd9291d38c3868f580d86c9c6", "started": "2026-09-13T10:54:46+07:00"}

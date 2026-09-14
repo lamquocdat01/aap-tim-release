@@ -1,0 +1,37 @@
+{
+  "checker": "IntrusionChecker",
+  "split": "full",
+  "n_images": 5000,
+  "seed": null,
+  "model": "/app/models/yolo26s.engine",
+  "task": "detect",
+  "conf": 0.2,
+  "iou_nms": 0.5,
+  "imgsz": 640,
+  "ap_match_iou": 0.5,
+  "count_match_iou": 0.45,
+  "count_match_conf": 0.2,
+  "annotation_file": "instances_val2017.json",
+  "method": "ultralytics 8.4.80 model.val()",
+  "mAP_50_all_classes": 0.540952,
+  "mAP_50_95_all_classes": 0.411138,
+  "per_class": {
+    "person": {
+      "class_id": 0,
+      "instances_evaluated": 10777,
+      "instances_in_coco_json": 11004,
+      "ap50": 0.72068,
+      "precision_at_maxF1": 0.780713,
+      "recall_at_maxF1": 0.740187,
+      "tp": 8238,
+      "fp": 2582,
+      "fn": 2539
+    }
+  },
+  "speed_ms": {
+    "preprocess": 2.647,
+    "inference": 17.236,
+    "loss": 0.02,
+    "postprocess": 1.208
+  }
+}

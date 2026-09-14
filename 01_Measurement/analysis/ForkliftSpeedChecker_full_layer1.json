@@ -1,0 +1,48 @@
+{
+  "checker": "ForkliftSpeedChecker",
+  "split": "full",
+  "n_images": 5000,
+  "seed": null,
+  "model": "/app/models/yolo26s.engine",
+  "task": "detect",
+  "conf": 0.25,
+  "iou_nms": 0.5,
+  "imgsz": 640,
+  "ap_match_iou": 0.5,
+  "count_match_iou": 0.45,
+  "count_match_conf": 0.25,
+  "annotation_file": "instances_val2017.json",
+  "method": "ultralytics 8.4.80 model.val()",
+  "mAP_50_all_classes": 0.522771,
+  "mAP_50_95_all_classes": 0.400121,
+  "per_class": {
+    "bus": {
+      "class_id": 5,
+      "instances_evaluated": 283,
+      "instances_in_coco_json": 285,
+      "ap50": 0.739054,
+      "precision_at_maxF1": 0.828794,
+      "recall_at_maxF1": 0.75265,
+      "tp": 205,
+      "fp": 52,
+      "fn": 78
+    },
+    "truck": {
+      "class_id": 7,
+      "instances_evaluated": 414,
+      "instances_in_coco_json": 415,
+      "ap50": 0.401153,
+      "precision_at_maxF1": 0.61465,
+      "recall_at_maxF1": 0.466184,
+      "tp": 180,
+      "fp": 134,
+      "fn": 234
+    }
+  },
+  "speed_ms": {
+    "preprocess": 2.601,
+    "inference": 16.892,
+    "loss": 0.02,
+    "postprocess": 1.158
+  }
+}

@@ -1,0 +1,18 @@
+Derived data and documents in this repository
+Copyright (c) 2026 Dat Lam Quoc
+
+Every file in this repository that is not source code (that is, every file not
+ending in .py) is licensed under the Creative Commons Attribution 4.0
+International licence (CC BY 4.0).
+
+  Summary:    https://creativecommons.org/licenses/by/4.0/
+  Legal code: https://creativecommons.org/licenses/by/4.0/legalcode
+
+You may share and adapt the material for any purpose, including commercially,
+provided you give appropriate credit, provide a link to the licence, and
+indicate if changes were made.
+
+Not covered by this licence or by LICENSE:
+  - third-party corpora and annotations used by the ex-situ analysis. They are
+    not redistributed here; each is used under its own licence, listed in
+    Supplementary Section S3 of the article.

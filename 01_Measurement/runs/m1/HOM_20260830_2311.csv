@@ -1,0 +1,5 @@
+run_id,video_id,checker,t_alert,confidence,frame_idx,track_id,event_type
+M1_HOM_20260830_2311,HOM_20260830_2311.mp4,IntrusionChecker,21.76,0.8198,327,std_8,INTRUSION
+M1_HOM_20260830_2311,HOM_20260830_2311.mp4,IntrusionChecker,34.58,0.4321,519,std_33,INTRUSION
+M1_HOM_20260830_2311,HOM_20260830_2311.mp4,IntrusionChecker,45.6,0.7041,684,std_62,INTRUSION
+M1_HOM_20260830_2311,HOM_20260830_2311.mp4,IntrusionChecker,65.62,0.6807,984,std_83,INTRUSION

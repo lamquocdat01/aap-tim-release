@@ -1,0 +1,225 @@
+{
+  "label": "gate_on",
+  "adapter_kind": "run_pass_container_per_cell",
+  "run_id": "M4E_gate_on",
+  "config": "<device-root>/scripts/configs/abl_gate_on.json",
+  "config_sha256": "79223650e28f0133209a13b707a3bdc5e441013c6a03a9487af20682266fab37",
+  "image_digest": "sha256:2f41e5038c4377f7a5e340ff2161835e8a29935fd9291d38c3868f580d86c9c6",
+  "modules": "intrusion,helmet,fall,smoke_fire,running",
+  "helmet_mode": "standard",
+  "checker_params": null,
+  "extra_flags": "--gate",
+  "checkers_enabled": [
+    "FallChecker",
+    "IntrusionChecker",
+    "SmokeFireChecker",
+    "HelmetChecker",
+    "RunningChecker"
+  ],
+  "sample_list": "<device-root>/ops/lists/m4_sample.list",
+  "sample_sha256": "a3cf149c9620021eb16e78898fc693ec0c282f1741f3f9971a306dc82d9eb979",
+  "segments_measured": 5,
+  "observation_hours": 2.500015,
+  "alerts_total": 320,
+  "alerts_by_checker": {
+    "IntrusionChecker": 283,
+    "HelmetChecker": 36,
+    "RunningChecker": 1
+  },
+  "wall_seconds": 12234.3,
+  "segments": [
+    {
+      "segment": "HOM_20260827_2030",
+      "frames_read": 26671,
+      "fps_effective": 14.819189039604423,
+      "fps_source": "container",
+      "observation_hours": 0.499934,
+      "wall_seconds": 3223.0,
+      "alerts": 315,
+      "diagnostics": {
+        "frames": 26671,
+        "ai_frames": 23118,
+        "detections": 153337,
+        "raw_violations": 20363,
+        "confirm_blocked": 708,
+        "dedup_blocked": 19341,
+        "dispatched": 314,
+        "by_class": {
+          "tv": 23148,
+          "chair": 64791,
+          "motorcycle": 18070,
+          "potted plant": 24971,
+          "book": 240,
+          "person": 19827,
+          "couch": 44,
+          "no_mask": 794,
+          "no_helmet": 45,
+          "mask": 282,
+          "helmet": 55,
+          "bicycle": 913,
+          "keyboard": 14,
+          "backpack": 15,
+          "no_goggles": 103,
+          "no_glove": 17,
+          "sports ball": 1,
+          "goggles": 6,
+          "dog": 1
+        },
+        "raw_by_checker": {
+          "INTRUSION": 19827,
+          "NO_HELMET": 536
+        },
+        "side_raw": {
+          "RunningChecker": 1
+        },
+        "side_calls_with_boxes": 26671,
+        "side_calls_no_boxes": 0
+      }
+    },
+    {
+      "segment": "HOM_20260828_0000",
+      "frames_read": 27015,
+      "fps_effective": 14.99839299214453,
+      "fps_source": "container",
+      "observation_hours": 0.500331,
+      "wall_seconds": 2150.0,
+      "alerts": 5,
+      "diagnostics": {
+        "frames": 27015,
+        "ai_frames": 5252,
+        "detections": 66695,
+        "raw_violations": 193,
+        "confirm_blocked": 20,
+        "dedup_blocked": 168,
+        "dispatched": 5,
+        "by_class": {
+          "tv": 10093,
+          "chair": 41258,
+          "clock": 4282,
+          "vase": 7640,
+          "potted plant": 2307,
+          "couch": 436,
+          "motorcycle": 195,
+          "dining table": 37,
+          "helmet": 113,
+          "mask": 4,
+          "person": 190,
+          "airplane": 10,
+          "bicycle": 34,
+          "no_mask": 11,
+          "no_helmet": 1,
+          "book": 84
+        },
+        "raw_by_checker": {
+          "INTRUSION": 190,
+          "NO_HELMET": 3
+        },
+        "side_raw": {},
+        "side_calls_with_boxes": 26938,
+        "side_calls_no_boxes": 77
+      }
+    },
+    {
+      "segment": "HOM_20260828_0230",
+      "frames_read": 27000,
+      "fps_effective": 15.002499331304977,
+      "fps_source": "container",
+      "observation_hours": 0.499917,
+      "wall_seconds": 2298.6,
+      "alerts": 0,
+      "diagnostics": {
+        "frames": 27000,
+        "ai_frames": 8097,
+        "detections": 107696,
+        "raw_violations": 0,
+        "confirm_blocked": 0,
+        "dedup_blocked": 0,
+        "dispatched": 0,
+        "by_class": {
+          "tv": 16193,
+          "chair": 67053,
+          "clock": 7836,
+          "vase": 12525,
+          "potted plant": 3692,
+          "couch": 294,
+          "motorcycle": 98,
+          "airplane": 5
+        },
+        "raw_by_checker": {},
+        "side_raw": {},
+        "side_calls_with_boxes": 27000,
+        "side_calls_no_boxes": 0
+      }
+    },
+    {
+      "segment": "HOM_20260831_1930",
+      "frames_read": 27000,
+      "fps_effective": 15.002505843894209,
+      "fps_source": "container",
+      "observation_hours": 0.499916,
+      "wall_seconds": 2261.0,
+      "alerts": 0,
+      "diagnostics": {
+        "frames": 27000,
+        "ai_frames": 7286,
+        "detections": 80259,
+        "raw_violations": 0,
+        "confirm_blocked": 0,
+        "dedup_blocked": 0,
+        "dispatched": 0,
+        "by_class": {
+          "tv": 14550,
+          "chair": 36595,
+          "clock": 9637,
+          "vase": 7504,
+          "potted plant": 9668,
+          "motorcycle": 2304,
+          "couch": 1
+        },
+        "raw_by_checker": {},
+        "side_raw": {},
+        "side_calls_with_boxes": 27000,
+        "side_calls_no_boxes": 0
+      }
+    },
+    {
+      "segment": "HOM_20260901_0130",
+      "frames_read": 27000,
+      "fps_effective": 15.002494446866763,
+      "fps_source": "container",
+      "observation_hours": 0.499917,
+      "wall_seconds": 2253.9,
+      "alerts": 0,
+      "diagnostics": {
+        "frames": 27000,
+        "ai_frames": 7279,
+        "detections": 77495,
+        "raw_violations": 0,
+        "confirm_blocked": 0,
+        "dedup_blocked": 0,
+        "dispatched": 0,
+        "by_class": {
+          "tv": 14550,
+          "chair": 35621,
+          "vase": 7249,
+          "potted plant": 8281,
+          "clock": 9590,
+          "motorcycle": 2186,
+          "couch": 18
+        },
+        "raw_by_checker": {},
+        "side_raw": {},
+        "side_calls_with_boxes": 27000,
+        "side_calls_no_boxes": 0
+      }
+    }
+  ],
+  "provenance": {
+    "utc": "2026-09-11T06:50:58Z",
+    "host": "<host>",
+    "python": "3.10.12",
+    "docker_version": "Docker version 29.5.2, build 79eb04c",
+    "jetpack": "# R36 (release), REVISION: 5.0, GCID: 43688277, BOARD: generic, EABI: aarch64, DATE: Fri Jan 16 03:50:45 UTC 2026\n# KERNEL_VARIANT: oot\nTARGET_USERSPACE_LIB_DIR=nvidia\nTARGET_USERSPACE_LIB_DIR_PATH=usr/lib/aarch64-linux-gnu/nvidia"
+  },
+  "note": "Measured by ops/run_pass.sh, one fresh container per cell -- the same driver as C1, V1-V5 and every ex-situ theta, which is what makes this cell comparable with the tables that driver produced. Per-segment CSV and metadata are in segments/ one level down, deliberately outside the out/ablation/*/*.json glob that counts cells."
+}

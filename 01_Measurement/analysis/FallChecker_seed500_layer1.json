@@ -1,0 +1,39 @@
+{
+  "checker": "FallChecker",
+  "split": "seed500",
+  "n_images": 500,
+  "seed": 20260820,
+  "model": "/app/models/yolo26s-pose.engine",
+  "task": "pose",
+  "conf": 0.4,
+  "iou_nms": 0.5,
+  "imgsz": 640,
+  "ap_match_iou": 0.5,
+  "count_match_iou": 0.45,
+  "count_match_conf": 0.4,
+  "annotation_file": "person_keypoints_val2017.json",
+  "method": "ultralytics 8.4.80 model.val()",
+  "mAP_50_all_classes": 0.492386,
+  "mAP_50_95_all_classes": 0.392535,
+  "per_class": {
+    "person": {
+      "class_id": 0,
+      "instances_evaluated": 1045,
+      "instances_in_coco_json": 1068,
+      "ap50": 0.492386,
+      "precision_at_maxF1": 0.887205,
+      "recall_at_maxF1": 0.504306,
+      "tp": 531,
+      "fp": 63,
+      "fn": 514
+    }
+  },
+  "speed_ms": {
+    "preprocess": 2.714,
+    "inference": 17.357,
+    "loss": 0.019,
+    "postprocess": 1.124
+  },
+  "pose_mAP_50": 0.458642,
+  "pose_mAP_50_95": 0.355324
+}

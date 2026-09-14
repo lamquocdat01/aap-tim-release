@@ -1,0 +1,4 @@
+# Store and check out every file byte-for-byte. SHA256SUMS.txt and the
+# registered .sha256 files hash the exact bytes, including CRLF line endings;
+# end-of-line conversion on commit or checkout would break them.
+* -text
