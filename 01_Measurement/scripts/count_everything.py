@@ -1225,9 +1225,9 @@ def count_characterizability():
     # the prose beside it, and both come from the same dictionary.
     SHORT = {
         "measured": "yes",
-        "coverage_zero": "coverage $=0$",
+        "coverage_zero": "coverage = 0",
         "uncharacterised_no_positive_control": "uncharacterised",
-        "awaiting_registered_scoring": "measured $0$, unscored",
+        "awaiting_registered_scoring": "measured 0, unscored",
         "side_channel": "checker never invoked",
         "no_far_denominator": "no FAR denominator",
         "no_channel_coverage_curve": "no channel coverage curve",

@@ -1,13 +1,13 @@
 # Asymmetric Evidence in Characterizing a Multi-Function Edge Camera Monitor — reproduction package
 
-Repository: **https://github.com/lamquocdat01/aap-tim-release** · tag **`tim-v1`**.
+Repository: **https://github.com/lamquocdat01/aap-tim-release** · tag **`tim-v2`**.
 
-Release **`tim-v1`**: the version submitted to *IEEE Transactions on Instrumentation and
+Release **`tim-v2`**: the version submitted to *IEEE Transactions on Instrumentation and
 Measurement*. Author: Dat Lam Quoc, FPT School of Business and Technology, FPT University,
 Ho Chi Minh City, Vietnam (ORCID 0009-0004-5432-9343).
 
 > **A GitHub URL is not a persistent identifier.** No DOI-backed archival copy of this package
-> exists at the time of submission. The tag `tim-v1` identifies the submitted commit.
+> exists at the time of submission. The tag `tim-v2` identifies the submitted commit.
 
 ## What the article is
 
@@ -108,6 +108,6 @@ Each was re-hashed inside this release at build time against its stored `.sha256
 
 ## Reproduction check at build time
 
-`count_everything.py` was run on a copy of this package, with the OmniFall annotation files in place: exit status 0, 1144 quantities compared with the released `generated_counts.json`, **0 differ**.
+`count_everything.py` was run on a copy of this package, with the OmniFall annotation files in place: exit status 0, 1151 quantities compared with the released `generated_counts.json`, **0 differ**.
 
 One caveat, stated rather than left to be discovered: 13 pre-registrations carry no lock stamp inside the file, so the counter reports their lock time from the file's modification time and labels it `(mtime)` (Supplementary Table of pre-registrations). A git clone resets modification times, so on a fresh clone those 13 labels will show the clone time. They are not measurements, and no other quantity depends on them.
