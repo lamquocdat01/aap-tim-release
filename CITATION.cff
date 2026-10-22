@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this package, please cite it as below."
+title: "Asymmetric Evidence, Formalized: What a Deployment Can and Cannot Measure about a Multi-Channel Edge Camera Monitor — reproduction package"
+authors:
+  - family-names: "Lam Quoc"
+    given-names: "Dat"
+    affiliation: "FPT School of Business and Technology, FPT University, Ho Chi Minh City, Vietnam"
+    orcid: "https://orcid.org/0009-0004-5432-9343"
+version: "tim-v3"
+date-released: "2026-10-22"
+repository-code: "https://github.com/lamquocdat01/aap-tim-release"
+license: MIT

@@ -16,3 +16,12 @@ Literal strings identifying the recording device, the camera or the home network
 | `01_Measurement/scripts/count_everything.py` | device home directory x1 | `58dc004e2781ad510d7d1effd0ad39f7bb18927f46759e0447fd2779aff25220` | `8a7faaa8d10d936eac9a3d3176bedaccbd525ce61243829e7efc2e6f50db0816` |
 | `01_Measurement/scripts/draw_sweep_samples.py` | device measurement root x1 | `17331e9e527e75a62586577fbdc71b3083c01c186bc33c680c81873b8883097c` | `fdf5bdea099836f17be740df68a3748f5f2821054190f4334e87cb2fe8c2987c` |
 | `ledger/CLAIM_LEDGER.md` | device measurement root x1; device VPN address x1 | `b49388230e601cb51da1e19d02386f5b6501151ec38306d55f24bdef35511274` | `2b34914cf14a2e13c135eab67646639da84c6f0aaf90a9450a1a716204f412a1` |
+
+## tim-v3 additions
+
+Files added for tim-v3 that carried a local path; replaced in the released copies only.
+
+| file | replaced | SHA256 original | SHA256 released |
+|---|---|---|---|
+| `scripts/theory_checks/theory_numbers.cpalpha1.json` | local interpreter path x1 | `7eaebb0af4ca3745aee0ff95e952ce876fe3ee1628f459b2215f5a25d01d8464` | `26a5c01ae2966d7342ea8fd73799c4700737bbe48d7e3b00a21c2276a8b47c1c` |
+| `scripts/render_silhouette.py` | local dataset root default x1; local dataset root in prose x1 | `f2b19add8bff3c71295cf42c163806c2f45f25bc3a0375334d40a804bbfb1549` | `789adcd937ec17b3d7b2a6cbd502ca04dfba9fd918eee1e6dd9bb09b0c9102fe` |

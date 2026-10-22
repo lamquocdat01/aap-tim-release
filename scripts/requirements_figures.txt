@@ -1,0 +1,6 @@
+# figure scripts (make_figures_alpha, render_silhouette, check_figures); versions as run on the PC 22-10 (system Python 3.11). cv2 reported 4.10.0 = the headless build. Re-run in a clean venv 22-10 (venv_fig): all figure scripts + check_figures PASS, mask hashes reproduced byte-for-byte.
+matplotlib==3.10.8
+numpy==1.26.4
+pillow==11.3.0
+pymupdf==1.28.2
+opencv-python-headless==4.10.0.84

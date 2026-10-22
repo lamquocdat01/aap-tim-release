@@ -1,0 +1,151 @@
+{
+ "generated": "2026-10-22T14:54:01+07:00",
+ "python": "3.11.9",
+ "executable": "python.exe",
+ "checks": {
+  "p1_table1_rebuild.py": 0,
+  "p3_identified_set.py": 0,
+  "p4_sample_size.py": 0,
+  "p5_declared_observed.py": 0,
+  "p6_prediction_interval.py": 0,
+  "p7_decision_map.py": 0
+ },
+ "verdicts": {
+  "P1": "MATCH",
+  "P3": "MATCH",
+  "P6": "REPRODUCED",
+  "P6_observed_in_PI": "IN"
+ },
+ "macros": {
+  "CorpusHours": "83.9626",
+  "CorpusSegments": "175",
+  "ZeroLimitTwoSided": "0.0439",
+  "ZeroLimitRuleOfThree": "0.0357",
+  "HelmetReplayRate": "8.2894",
+  "HelmetReplayLo": "5.7204",
+  "HelmetReplayHi": "11.2377",
+  "FallReplayRate": "1.0838",
+  "FallReplayLo": "0.4782",
+  "FallReplayHi": "1.8114",
+  "IntrusionAlertRate": "69.4595",
+  "IntrusionFpLabelled": "100",
+  "IntrusionFpHi": "0.0370",
+  "IntrusionFarHiNinety": "3.2250",
+  "IntrusionFarHiJoint": "4.3128",
+  "TableOneComparisons": "34",
+  "RhoLo": "0.080",
+  "RhoHi": "0.568",
+  "CovBDemo": "0.1154",
+  "CovBDemoK": "9/78",
+  "CovBDemoLo": "0.0619",
+  "CovBDemoHi": "0.2050",
+  "HPluginLo": "0.0092",
+  "HPluginHi": "0.0655",
+  "CSLo": "0.0050",
+  "CSHi": "0.1164",
+  "NWilsonTenth": "93",
+  "NWilsonFifth": "21",
+  "NWaldTenth": "97",
+  "NZeroMissTenth": "36",
+  "NZeroMissTwentieth": "72",
+  "CorpusPersonYears": "0.0096",
+  "MechanismsN": "7",
+  "MechanismsExporting": "0",
+  "HelmetLogPzero": "-209",
+  "FallLogPzero": "-17",
+  "HelmetAzeroMargin": "160",
+  "FallAzeroMargin": "13.4",
+  "PsixCorpusRate": "0.5240",
+  "PsixCILo": "0.254",
+  "PsixCIHi": "0.841",
+  "PsixPILo": "0.000",
+  "PsixPIHi": "2.281",
+  "PsixObserved": "1.7538",
+  "PsixPge": "6.05",
+  "PsixPzero": "45.86",
+  "PsixAoneVerify": "1.503",
+  "PsixInOut": "IN"
+ },
+ "withheld_from_tex": {
+  "P4_time_years": [
+   {
+    "target": "w=0.20 @p=0.5 (Wilson)",
+    "N": 21,
+    "expected_years_lambda0.5": 42.0,
+    "T95_years_lambda0.5": 58.12403768086802,
+    "expected_years_lambda1": 21.0,
+    "T95_years_lambda1": 29.06201884043401,
+    "expected_years_lambda3": 7.0,
+    "T95_years_lambda3": 9.687339613478004
+   },
+   {
+    "target": "w=0.10 @p=0.5 (Wilson)",
+    "N": 93,
+    "expected_years_lambda0.5": 186.0,
+    "T95_years_lambda0.5": 218.82049065975576,
+    "expected_years_lambda1": 93.0,
+    "T95_years_lambda1": 109.41024532987788,
+    "expected_years_lambda3": 31.0,
+    "T95_years_lambda3": 36.47008177662596
+   },
+   {
+    "target": "eps=0.10, 0 miss (two-sided)",
+    "N": 36,
+    "expected_years_lambda0.5": 72.0,
+    "T95_years_lambda0.5": 92.80827038310771,
+    "expected_years_lambda1": 36.0,
+    "T95_years_lambda1": 46.404135191553856,
+    "expected_years_lambda3": 12.0,
+    "T95_years_lambda3": 15.468045063851285
+   },
+   {
+    "target": "eps=0.05, 0 miss (two-sided)",
+    "N": 72,
+    "expected_years_lambda0.5": 144.0,
+    "T95_years_lambda0.5": 173.00405909424492,
+    "expected_years_lambda1": 72.0,
+    "T95_years_lambda1": 86.50202954712246,
+    "expected_years_lambda3": 24.0,
+    "T95_years_lambda3": 28.83400984904082
+   }
+  ],
+  "lambda_grid": [
+   0.5,
+   1.0,
+   3.0
+  ],
+  "status": "PARAMETER -- sources in INCIDENCE_SOURCES.md; not for print until author decides"
+ },
+ "provenance": [
+  {
+   "file": "01_Measurement/analysis/e12/A1_FALL_BY_SEGMENT.json",
+   "links_md": "not listed",
+   "sha256": "84a6f7e8bd171e2599dcaa594756c77eb04298467669e3f54078ebf6ca0e3743"
+  },
+  {
+   "file": "01_Measurement/analysis/e12/E12_COST_AXIS.json",
+   "links_md": "not listed",
+   "sha256": "38f2b9196c329abf448f3464dd3767f430cb0f23a34b1dcca22dffc4c5662972"
+  },
+  {
+   "file": "01_Measurement/analysis/silent_mechanisms.csv",
+   "links_md": "not listed",
+   "sha256": "22e3d749b62acd4533da3cf61a7371b7b710ef17ec31ad5abdb3afcc3fba816e"
+  },
+  {
+   "file": "01_Measurement/analysis/tier0/duration_corrections.json",
+   "links_md": "not listed",
+   "sha256": "4a6391e2f5c273e48a3119ab4067d046fb9e38396a1595a23934d2d40af228d1"
+  },
+  {
+   "file": "01_Measurement/generated_counts.json",
+   "links_md": "matches LINKS.md",
+   "sha256": "f3909e378a2234901db22b54ad6a20694e42ccad321ce694cd2437e323b79a3c"
+  },
+  {
+   "file": "01_Measurement/ops/samples/verify_sample_4h.list",
+   "links_md": "not listed",
+   "sha256": "e5d2e9e6ee11db6611f1e46f32e36b8945eaf963f3d849d62f97d7464f3cb4da"
+  }
+ ]
+}
